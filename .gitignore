@@ -1,0 +1,20 @@
+# Зависимости
+node_modules/
+
+# Окружение — реальные секреты не коммитим (шаблон .env.example — можно)
+.env
+.env.*
+!.env.example
+
+# Логи
+*.log
+logs/
+npm-debug.log*
+
+# Системное
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.local
+*.tmp
